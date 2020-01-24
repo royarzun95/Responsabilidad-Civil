@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  send_incident:
+    name: send_incident
+    type: ajax
+    description: "Punto final AJAX para creaci\xF3n de incident"
+    default: /ci/ajax/widget
+    required: false

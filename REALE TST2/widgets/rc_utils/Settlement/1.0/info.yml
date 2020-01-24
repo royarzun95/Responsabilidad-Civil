@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  getPDF_ajax_endpoint:
+    name: getPDF_ajax_endpoint
+    type: ajax
+    description: Obtiene el documento del finiquito PDF
+    default: /ci/ajax/widget
+    required: false

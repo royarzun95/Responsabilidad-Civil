@@ -1,0 +1,12 @@
+version: "1.0"
+requires:
+  jsModule:
+  - standard
+  - mobile
+attributes:
+  getURL_ajax_endpoint:
+    name: getURL_ajax_endpoint
+    type: ajax
+    description: Punto final AJAX getUrl
+    default: /ci/ajax/widget
+    required: false
