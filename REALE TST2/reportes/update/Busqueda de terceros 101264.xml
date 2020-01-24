@@ -1,0 +1,940 @@
+<?xml version="1.0" encoding="utf-8"?>
+<analytics_core xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <ac_id xmlns="urn:obj.api.rightnow.com">101264</ac_id>
+  <ac_public xmlns="urn:obj.api.rightnow.com">true</ac_public>
+  <ac_type xmlns="urn:obj.api.rightnow.com">1</ac_type>
+  <aux xmlns="urn:obj.api.rightnow.com">1.0.1,1.42.1,1.43.1,1.0.2,1.31.2,1.0.3,1.32.3,1.0.53,1.0.126,1.0.542,1.0.10008,1.0.24,1.0.10034,1.0.10036,1.0.10001,1.0.10031,1.0.10069,1.0.10085,1.0.10086,1.42.1,1.43.1,1.0.10040,1.0.10041,1.0.10043,1.0.10045,1.0.10052,1.0.10051,1.0.10053,1.0.10044,1.0.10047,1.0.10056,1.0.10059,1.0.10106,1.0.10109,1.0.10002,1.0.10005</aux>
+  <cdate_offset xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <co_version xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <created xmlns="urn:obj.api.rightnow.com">2019-10-23T19:14:34Z</created>
+  <file_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <filters xmlns="urn:obj.api.rightnow.com">
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>1</data_type>
+      <fltr_id>1</fltr_id>
+      <oper>1</oper>
+      <optl_id>12</optl_id>
+      <opts>0</opts>
+      <revision xsi:nil="true" />
+      <type>1</type>
+      <val1>incidents.cat_hierarchy</val1>
+      <val1_attrs>273</val1_attrs>
+      <val1_col_refs>incidents.cat_hierarchy;1</val1_col_refs>
+      <val2>2.247</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;incidents.cat_hierarchy&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>2</fltr_id>
+      <oper>1</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>1</revision>
+      <type>1</type>
+      <val1>incidents.c$vehicle_plate</val1>
+      <val1_attrs>9</val1_attrs>
+      <val1_col_refs>incidents.c$vehicle_plate;1</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Patente vehículo&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;0&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Patente vehículo&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>3</fltr_id>
+      <oper>1</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>2</revision>
+      <type>1</type>
+      <val1>incidents.c$claim_number</val1>
+      <val1_attrs>9</val1_attrs>
+      <val1_col_refs>incidents.c$claim_number;1</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;N° de siniestro&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;1&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;N° de siniestro&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>1</data_type>
+      <fltr_id>4</fltr_id>
+      <oper>1</oper>
+      <optl_id>19</optl_id>
+      <opts>0</opts>
+      <revision xsi:nil="true" />
+      <type>1</type>
+      <val1>incidents.status_id</val1>
+      <val1_attrs>131073</val1_attrs>
+      <val1_col_refs>incidents.status_id;1</val1_col_refs>
+      <val2>104</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;incidents.status_id&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>7</data_type>
+      <fltr_id>5</fltr_id>
+      <oper>9</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>3</revision>
+      <type>1</type>
+      <val1>REALE$DeclarationDetail.declaration_date</val1>
+      <val1_attrs>1</val1_attrs>
+      <val1_col_refs>REALE$DeclarationDetail.declaration_date;10034</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Fecha e Ocurrencia&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;2&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Fecha e Ocurrencia&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>6</fltr_id>
+      <oper>19</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>4</revision>
+      <type>1</type>
+      <val1>contacts.first_name</val1>
+      <val1_attrs>1</val1_attrs>
+      <val1_col_refs>contacts.first_name;2</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Contacto Tercero Nombre&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;3&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Contacto Tercero Nombre&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>7</fltr_id>
+      <oper>19</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>5</revision>
+      <type>1</type>
+      <val1>contacts.last_name</val1>
+      <val1_attrs>1</val1_attrs>
+      <val1_col_refs>contacts.last_name;2</val1_col_refs>
+      <val2>%%</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Contacto Tercero Apellido&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;4&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Contacto Tercero Apellido&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>8</fltr_id>
+      <oper>19</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>6</revision>
+      <type>1</type>
+      <val1>contacts2.first_name</val1>
+      <val1_attrs>1</val1_attrs>
+      <val1_col_refs>contacts2.first_name;2</val1_col_refs>
+      <val2>%%</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Contacto Padre Nombre&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;5&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Contacto Padre Nombre&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>5</data_type>
+      <fltr_id>9</fltr_id>
+      <oper>19</oper>
+      <optl_id xsi:nil="true" />
+      <opts>1</opts>
+      <revision>7</revision>
+      <type>1</type>
+      <val1>contacts2.last_name</val1>
+      <val1_attrs>1</val1_attrs>
+      <val1_col_refs>contacts2.last_name;2</val1_col_refs>
+      <val2>%%</val2>
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;Contacto Padre Apellido&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DockedFilterOrder&gt;6&lt;/DockedFilterOrder&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Contacto Padre Apellido&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+    <filter_item>
+      <applies_to xsi:nil="true" />
+      <data_type>3</data_type>
+      <fltr_id>10</fltr_id>
+      <oper>12</oper>
+      <optl_id xsi:nil="true" />
+      <opts>0</opts>
+      <revision xsi:nil="true" />
+      <type>1</type>
+      <val1>incidents.c$boreal_number</val1>
+      <val1_attrs>9</val1_attrs>
+      <val1_col_refs>incidents.c$boreal_number;1</val1_col_refs>
+      <val2 xsi:nil="true" />
+      <val2_col_refs xsi:nil="true" />
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;FilterXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Prompt&gt;
+    &lt;LabelStr&gt;incidents.c$boreal_number&lt;/LabelStr&gt;
+  &lt;/Prompt&gt;
+  &lt;DisplayInSearchCriteria&gt;true&lt;/DisplayInSearchCriteria&gt;
+&lt;/FilterXmlData&gt;</xml_data>
+    </filter_item>
+  </filters>
+  <fltr_expr xmlns="urn:obj.api.rightnow.com">1 2 &amp; 3 &amp; 4 &amp; 5 &amp; 6 &amp; 7 &amp; 8 &amp; 9 &amp; 10 &amp;</fltr_expr>
+  <folder_id xmlns="urn:obj.api.rightnow.com">102199</folder_id>
+  <image xmlns="urn:obj.api.rightnow.com">8</image>
+  <interface_id xmlns="urn:obj.api.rightnow.com">1</interface_id>
+  <items xmlns="urn:obj.api.rightnow.com" />
+  <label xmlns="urn:obj.api.rightnow.com">
+    <lbl_item>
+      <label>Busqueda de terceros</label>
+      <lang_id>6</lang_id>
+    </lbl_item>
+  </label>
+  <nodes xmlns="urn:obj.api.rightnow.com">
+    <node_item>
+      <branch_col_link_idx xsi:nil="true" />
+      <branch_tbl_idx xsi:nil="true" />
+      <branch_type xsi:nil="true" />
+      <charts />
+      <cols>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>1</col_id>
+          <col_rf>1</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>1</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.ref_no</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.ref_no;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4651&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;10.9322033&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>2</col_id>
+          <col_rf>2</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>4</data_type>
+          <display_order>2</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.created</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>incidents.created;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4648&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;11.6101694&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;DateFormatType&gt;DateTime&lt;/DateFormatType&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>3</col_id>
+          <col_rf>3</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>3</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.c$claim_number</val>
+          <val_attrs>9</val_attrs>
+          <val_col_refs>incidents.c$claim_number;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Número de Siniestro&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;13.3050852&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>4</col_id>
+          <col_rf>4</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>3</data_type>
+          <display_order>4</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.c$process_number</val>
+          <val_attrs>9</val_attrs>
+          <val_col_refs>incidents.c$process_number;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Número de tramitacion&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;NumberFormat&gt;
+    &lt;NumberType&gt;Number&lt;/NumberType&gt;
+  &lt;/NumberFormat&gt;
+  &lt;Width&gt;12.79661&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Far&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Far&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>5</col_id>
+          <col_rf>5</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>5</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents.c$vehicle_plate</val>
+          <val_attrs>9</val_attrs>
+          <val_col_refs>incidents.c$vehicle_plate;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Patente Vehículo&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;12.9661016&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>6</col_id>
+          <col_rf>6</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>6</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>incidents2.c$number_policy</val>
+          <val_attrs>9</val_attrs>
+          <val_col_refs>incidents2.c$number_policy;1</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Número de Póliza&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;11.4406776&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>7</col_id>
+          <col_rf>7</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>6</data_type>
+          <display_order>7</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>4000</max_len>
+          <min_vuse>157</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>REALE$DeclarationDetail.declaration_description</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>REALE$DeclarationDetail.declaration_description;10034</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Descripción&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;8.389831&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>8</col_id>
+          <col_rf>8</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>6</data_type>
+          <display_order>8</display_order>
+          <group_order xsi:nil="true" />
+          <max_len>4000</max_len>
+          <min_vuse>157</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>REALE$DeclarationDetail.declaration_damages</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>REALE$DeclarationDetail.declaration_damages;10034</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Percentage&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Daños&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;Width&gt;8.983051&lt;/Width&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>9</col_id>
+          <col_rf>9</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>9</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>RPC$Comuna.com_desc</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>RPC$Comuna.com_desc;10001</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Comuna&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>10</col_id>
+          <col_rf>10</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>7</data_type>
+          <display_order>10</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>REALE$DeclarationDetail.declaration_denounceDate</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>REALE$DeclarationDetail.declaration_denounceDate;10034</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelStr&gt;Fecha de Denuncio&lt;/LabelStr&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+  &lt;DateFormatType&gt;DateTime&lt;/DateFormatType&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>11</col_id>
+          <col_rf>11</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>11</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>contacts.first_name</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>contacts.first_name;2</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4790&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+        <cols_item>
+          <calc_units xsi:nil="true" />
+          <col_id>12</col_id>
+          <col_rf>12</col_rf>
+          <comp_opts xsi:nil="true" />
+          <data_type>5</data_type>
+          <display_order>12</display_order>
+          <group_order xsi:nil="true" />
+          <max_len xsi:nil="true" />
+          <min_vuse>223</min_vuse>
+          <opts xsi:nil="true" />
+          <rpt_links />
+          <sort_direction xsi:nil="true" />
+          <sort_order xsi:nil="true" />
+          <trend_opts xsi:nil="true" />
+          <type>1</type>
+          <val>contacts.last_name</val>
+          <val_attrs>1</val_attrs>
+          <val_col_refs>contacts.last_name;2</val_col_refs>
+          <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;ColumnXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;UnitType&gt;Auto&lt;/UnitType&gt;
+  &lt;Header&gt;
+    &lt;LabelId&gt;4793&lt;/LabelId&gt;
+  &lt;/Header&gt;
+  &lt;HeaderAlignment&gt;Near&lt;/HeaderAlignment&gt;
+  &lt;DataAlignment&gt;Near&lt;/DataAlignment&gt;
+&lt;/ColumnXmlData&gt;</xml_data>
+        </cols_item>
+      </cols>
+      <excepts />
+      <filters />
+      <fltr_expr xsi:nil="true" />
+      <group_by_col_idx xsi:nil="true" />
+      <group_type>0</group_type>
+      <having_expr xsi:nil="true" />
+      <having_filters />
+      <n_id>1</n_id>
+      <opts>0</opts>
+      <parent_node_idx xsi:nil="true" />
+      <row_limit xsi:nil="true" />
+      <scripts />
+      <starting_level xsi:nil="true" />
+      <style_id>12</style_id>
+      <xml_data>&lt;?xml version="1.0" encoding="utf-16"?&gt;
+&lt;NodeXmlData xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema"&gt;
+  &lt;Sections&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;75&lt;/Height&gt;
+      &lt;SectionType&gt;DockedFilters&lt;/SectionType&gt;
+      &lt;StyleType&gt;DockedFiltersArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;0&lt;/Bottom&gt;
+            &lt;Left&gt;0&lt;/Left&gt;
+            &lt;Right&gt;0&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;CurrentDate&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Far&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;CurrentDate&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;27&lt;/Height&gt;
+      &lt;SectionType&gt;PageHeader&lt;/SectionType&gt;
+      &lt;StyleType&gt;PageHeader&lt;/StyleType&gt;
+      &lt;TableLayout&gt;
+        &lt;RowStyles&gt;
+          &lt;RowStyle&gt;
+            &lt;SizeType&gt;AutoSize&lt;/SizeType&gt;
+            &lt;Height&gt;0&lt;/Height&gt;
+          &lt;/RowStyle&gt;
+        &lt;/RowStyles&gt;
+        &lt;ColumnStyles&gt;
+          &lt;ColumnStyle&gt;
+            &lt;SizeType&gt;AutoSize&lt;/SizeType&gt;
+            &lt;Width&gt;100&lt;/Width&gt;
+          &lt;/ColumnStyle&gt;
+        &lt;/ColumnStyles&gt;
+      &lt;/TableLayout&gt;
+      &lt;LayoutType&gt;Table&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;true&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;Title&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Left Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Near&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;Text&gt;
+            &lt;LabelStr&gt;Busqueda de terceros ingresados&lt;/LabelStr&gt;
+          &lt;/Text&gt;
+          &lt;TextType&gt;Title&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;57&lt;/Height&gt;
+      &lt;SectionType&gt;ReportHeader&lt;/SectionType&gt;
+      &lt;StyleType&gt;ReportHeader&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;Descriptions&lt;/SectionType&gt;
+      &lt;StyleType&gt;DefinitionArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;SearchCriteria&lt;/SectionType&gt;
+      &lt;StyleType&gt;SearchCriteriaArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;250&lt;/Height&gt;
+      &lt;SectionType&gt;Charts&lt;/SectionType&gt;
+      &lt;StyleType&gt;ChartArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;DataArea&lt;/SectionType&gt;
+      &lt;StyleType&gt;DataArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;RecordCounts&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Left&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Near&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;RecordCount&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;32&lt;/Height&gt;
+      &lt;SectionType&gt;ReportFooter&lt;/SectionType&gt;
+      &lt;StyleType&gt;ReportFooter&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Height&gt;-1&lt;/Height&gt;
+      &lt;SectionType&gt;Exceptions&lt;/SectionType&gt;
+      &lt;StyleType&gt;ExceptionsArea&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;false&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+    &lt;ReportSection&gt;
+      &lt;Fields&gt;
+        &lt;ReportField xsi:type="ReportTextField"&gt;
+          &lt;Padding&gt;
+            &lt;Bottom&gt;1&lt;/Bottom&gt;
+            &lt;Left&gt;1&lt;/Left&gt;
+            &lt;Right&gt;1&lt;/Right&gt;
+            &lt;Top&gt;0&lt;/Top&gt;
+          &lt;/Padding&gt;
+          &lt;StyleType&gt;PageNumber&lt;/StyleType&gt;
+          &lt;AnchorStyles&gt;Top Right&lt;/AnchorStyles&gt;
+          &lt;AutoSize&gt;true&lt;/AutoSize&gt;
+          &lt;TextAlign&gt;Far&lt;/TextAlign&gt;
+          &lt;LineAlign&gt;Center&lt;/LineAlign&gt;
+          &lt;TextType&gt;PageNumber&lt;/TextType&gt;
+        &lt;/ReportField&gt;
+      &lt;/Fields&gt;
+      &lt;Height&gt;29&lt;/Height&gt;
+      &lt;SectionType&gt;PageFooter&lt;/SectionType&gt;
+      &lt;StyleType&gt;PageFooter&lt;/StyleType&gt;
+      &lt;LayoutType&gt;Fixed&lt;/LayoutType&gt;
+      &lt;AutoHeight&gt;false&lt;/AutoHeight&gt;
+      &lt;Visible&gt;true&lt;/Visible&gt;
+    &lt;/ReportSection&gt;
+  &lt;/Sections&gt;
+  &lt;PageWidthOptions&gt;
+    &lt;Width&gt;1180&lt;/Width&gt;
+    &lt;WidthType&gt;Fixed&lt;/WidthType&gt;
+  &lt;/PageWidthOptions&gt;
+  &lt;PageReport&gt;false&lt;/PageReport&gt;
+  &lt;Name&gt;
+    &lt;LabelStr&gt;Informe estándar&lt;/LabelStr&gt;
+  &lt;/Name&gt;
+  &lt;SearchCriteriaStyle&gt;None&lt;/SearchCriteriaStyle&gt;
+  &lt;OutputDescriptionStyle&gt;Rollover&lt;/OutputDescriptionStyle&gt;
+  &lt;DisplayOptions&gt;ShowDataAreaAsGrid&lt;/DisplayOptions&gt;
+  &lt;DockedFilterLabelsPosition&gt;Left&lt;/DockedFilterLabelsPosition&gt;
+  &lt;PageSettings&gt;
+    &lt;PrintMargin&gt;Normal&lt;/PrintMargin&gt;
+    &lt;Landscape&gt;false&lt;/Landscape&gt;
+    &lt;PrintToFit&gt;false&lt;/PrintToFit&gt;
+  &lt;/PageSettings&gt;
+&lt;/NodeXmlData&gt;</xml_data>
+    </node_item>
+  </nodes>
+  <notes xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <opts xmlns="urn:obj.api.rightnow.com">6</opts>
+  <owner_acct_id xmlns="urn:obj.api.rightnow.com">2</owner_acct_id>
+  <params xmlns="urn:obj.api.rightnow.com" />
+  <perms xmlns="urn:obj.api.rightnow.com">
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>2</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>88</profile_id>
+    </perm_item>
+    <perm_item>
+      <perms>3</perms>
+      <profile_id>89</profile_id>
+    </perm_item>
+  </perms>
+  <rpt xmlns="urn:obj.api.rightnow.com" />
+  <run_vals xmlns="urn:obj.api.rightnow.com" />
+  <schedules xmlns="urn:obj.api.rightnow.com" />
+  <style_id xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <tables xmlns="urn:obj.api.rightnow.com">
+    <table_item>
+      <alias>incidents</alias>
+      <join_def_enum xsi:nil="true" />
+      <join_def_idx xsi:nil="true" />
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx xsi:nil="true" />
+      <join_type xsi:nil="true" />
+      <tbl>1</tbl>
+      <tbl_id>1</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>incidents2</alias>
+      <join_def_enum>OracleServiceCloud$Incident$REALE_Request$$incidents_i_id</join_def_enum>
+      <join_def_idx>85</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>0</join_to_tbl_idx>
+      <join_type>2</join_type>
+      <tbl>1</tbl>
+      <tbl_id>2</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>REALE$DeclarationDetail</alias>
+      <join_def_enum>incidents$REALE_DeclarationDetail$$REALE$ID</join_def_enum>
+      <join_def_idx>86</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>1</join_to_tbl_idx>
+      <join_type>2</join_type>
+      <tbl>10034</tbl>
+      <tbl_id>3</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>RPC$Comuna</alias>
+      <join_def_enum>REALE$DeclarationDetail$commune$$RPC$Comuna$ID</join_def_enum>
+      <join_def_idx>10</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>2</join_to_tbl_idx>
+      <join_type>2</join_type>
+      <tbl>10001</tbl>
+      <tbl_id>4</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>contacts2</alias>
+      <join_def_enum>incidents$1$c_id$$contacts$2$c_id</join_def_enum>
+      <join_def_idx>25</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>1</join_to_tbl_idx>
+      <join_type>2</join_type>
+      <tbl>2</tbl>
+      <tbl_id>5</tbl_id>
+    </table_item>
+    <table_item>
+      <alias>contacts</alias>
+      <join_def_enum>incidents$1$c_id$$contacts$2$c_id</join_def_enum>
+      <join_def_idx>25</join_def_idx>
+      <join_filters />
+      <join_fltr_expr xsi:nil="true" />
+      <join_to_tbl_idx>0</join_to_tbl_idx>
+      <join_type>2</join_type>
+      <tbl>2</tbl>
+      <tbl_id>6</tbl_id>
+    </table_item>
+  </tables>
+  <time_zone xmlns="urn:obj.api.rightnow.com">1</time_zone>
+  <updated xmlns="urn:obj.api.rightnow.com">2019-12-04T18:39:08Z</updated>
+  <version xmlns="urn:obj.api.rightnow.com">0</version>
+  <version_detail xmlns="urn:obj.api.rightnow.com">
+    <is_live>true</is_live>
+  </version_detail>
+  <xml_data xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+  <xml_report xsi:nil="true" xmlns="urn:obj.api.rightnow.com" />
+</analytics_core>
+Version: 
+/sDREy7xk2NlMAIs5xvl84kppI4KZOJK
